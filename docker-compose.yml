@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  pocketbase:
-    container_name: "pocketbase"
+  pocketbase-app:
+    container_name: "pocketbase-app"
     build: .
     ports:
       - "127.0.0.1:8090:8090"
